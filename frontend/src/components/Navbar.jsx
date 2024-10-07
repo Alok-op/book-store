@@ -29,7 +29,7 @@ const Navbar = () => {
                                         d="M4 6h16M4 12h8m-8 6h16" />
                                 </svg>
                             </div>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"><navItem /></ul>
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">{navItem}</ul>
                         </div>
                         <a className='text-2xl font-bold cursor-pointer'>Book store</a>
                     </div>
